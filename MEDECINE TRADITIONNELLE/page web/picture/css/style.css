@@ -1,0 +1,41 @@
+.tete
+{
+    background-image:url("../img/background-sante.jpg");height: 150px;
+}
+h1
+{
+   color: rgb(247, 243, 239);
+   text-align: center;
+}
+p + div
+{
+    background-image:url("../img/embelissage2.png");height: 75px;
+    color:white;
+}
+span
+{
+    color: rgb(255, 21, 21);
+}
+h3
+{
+    color: bisque;
+    background-color:rgb(177, 124, 226);
+    text-align: center;
+}
+.en
+{
+    color:white(255, 56, 56);
+}
+.em
+{
+    color:white;
+    background-color: blue
+}
+.ancre
+{
+    color: rgb(10, 23, 96);
+}
+.lien
+{
+    color: rgb(17, 72, 72);
+}
