@@ -5,7 +5,7 @@ body
 }
 *
 {
-    font-family: "Barlow Condensed ExtraBold", "Segoe Script", sans-serif;
+    font-family: Bahnschrift, "Arial Rounded MT Bold", "Barlow Condensed ExtraBold", "Segoe Script", sans-serif;
     box-sizing: border-box;
 }
 section
@@ -37,15 +37,15 @@ section
 }
 .div1-creation_hand1_section1
 {
-    background: #ef3475;
+    background: rgba(250, 43, 115, 0.77);
 }
 .div1-creation_hand1_section2
 {
-    background: #055720;
+    background: rgba(13, 197, 53, 0.81);
 }
 .div1-creation_hand1_section3
 {
-    background: #050f50;
+    background: rgba(58, 79, 241, 0.82);
 }
 p
 {
@@ -54,20 +54,20 @@ p
 .div1-creation_hand1_section3, .div1-creation_hand1_section2, .div1-creation_hand1_section1
 {
     font-size: 1.2em;
-    width: 80px;
-    padding: 2px;
+    width: 180px;
+    padding: 3px;
     margin-left: auto;
     text-align: center;
     border: 1px solid black;
     color: #ffffff;
     position: relative;
-    top: -4px;
-    left: 4px;
+    top: -0.6px;
+    left: 0.5px;
 }
 div[class*="div2-creation_hand2_section"]
 {
-    padding: 5px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 
@@ -76,27 +76,24 @@ div[class*="div2-creation_hand2_section"]
     .div-creation_container
     {
         width: 100%;
-        position: absolute;
+        position: relative;
     }
     .section-creat_container1, .section-creat_container2
     {
+        float: left;
         width: 50%;
-    }
-    .section-creat_container1
-    {
-        float: right;
     }
     .section-creat_container3
     {
+        clear: both;
         width: 100%;
     }
-    .div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
+    .div3-creation_hand_section3
     {
-        padding: 3px;
-        height: 250px;
-        color: #ffffff;
+        height: 200px;
     }
 }
+
 
 @media(min-width: 992px)
 {
@@ -108,31 +105,10 @@ div[class*="div2-creation_hand2_section"]
     .div-creation_container
     {
         width: 100%;
-        position: absolute;
-    }
-    .div1-creation_hand1_section1
-    {
-        background: #ef3475;
-    }
-    .div1-creation_hand1_section2
-    {
-        background: #0b0d8c;
-    }
-    .div1-creation_hand1_section3
-    {
-        background: #050f50;
+        position: relative;
     }
     .div1-creation_hand1_section3, .div1-creation_hand1_section2, .div1-creation_hand1_section1
     {
-        width: 40%;
-        padding: 2%;
-        margin-left: auto;
-        text-align: center;
-        position: relative;
-    }
-    div[class*="div2-creation_hand2_section"]
-    {
-        padding: 5px;
-        margin-top: 8px;
+        width: 140px;
     }
 }
