@@ -1,0 +1,26 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1
+{
+    background-image:url("../img/background-sante.jpg"); height: 150px; 
+    color: azure;
+    text-align: center;
+}
+div
+{
+    color: black;
+}
+.objet
+{
+    background-color: rgb(255, 255, 255);
+}
+b
+{
+    font-style: italic;
+}
+p
+{
+    float: left;
+}

@@ -1,0 +1,114 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    font-family: Bahnschrift, "Arial Rounded MT Bold", "Barlow Condensed ExtraBold", "Segoe Script", sans-serif;
+    box-sizing: border-box;
+}
+section
+{
+    padding: 15px;
+}
+.div-creation_container
+{
+    width: 100%;
+    height: auto;
+}
+.header-creat_container
+{
+    padding: 15px;
+}
+.p-creat_container_para1
+{
+    width: 50%;
+    margin: auto;
+    font: 2.5em bold;
+    text-align: center;
+}
+
+.div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
+{
+    border: 1px solid black;
+    background: #6addf1;
+    color: #000000;
+}
+.div1-creation_hand1_section1
+{
+    background: rgba(250, 43, 115, 0.77);
+}
+.div1-creation_hand1_section2
+{
+    background: rgba(13, 197, 53, 0.81);
+}
+.div1-creation_hand1_section3
+{
+    background: rgba(58, 79, 241, 0.82);
+}
+p
+{
+    margin:0;
+}
+.div1-creation_hand1_section3, .div1-creation_hand1_section2, .div1-creation_hand1_section1
+{
+    font-size: 1.2em;
+    width: 180px;
+    padding: 3px;
+    margin-left: auto;
+    text-align: center;
+    border: 1px solid black;
+    color: #ffffff;
+    position: relative;
+    top: -0.6px;
+    left: 0.5px;
+}
+div[class*="div2-creation_hand2_section"]
+{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+    .div-creation_container
+    {
+        width: 100%;
+        position: relative;
+    }
+    .section-creat_container1, .section-creat_container2
+    {
+        float: left;
+        width: 50%;
+    }
+    .section-creat_container3
+    {
+        clear: both;
+        width: 100%;
+    }
+    .div3-creation_hand_section3
+    {
+        height: 200px;
+    }
+}
+
+
+@media(min-width: 992px)
+{
+    section
+    {
+        float: left;
+        width: 33.32%;
+    }
+    .div-creation_container
+    {
+        width: 100%;
+        position: relative;
+    }
+    .div1-creation_hand1_section3, .div1-creation_hand1_section2, .div1-creation_hand1_section1
+    {
+        width: 140px;
+    }
+}
