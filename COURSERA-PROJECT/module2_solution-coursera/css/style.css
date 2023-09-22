@@ -5,7 +5,7 @@ body
 }
 *
 {
-    font-family: Ebrima, "Script MT Bold", "Barlow Condensed ExtraBold", "Segoe Script", sans-serif;
+    font-family: "Barlow Condensed ExtraBold", "Segoe Script", sans-serif;
     box-sizing: border-box;
 }
 section
@@ -28,11 +28,11 @@ section
     font: 2.5em bold;
     text-align: center;
 }
+
 .div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
 {
     border: 1px solid black;
-    padding: 3px;
-    background: #0b8db4;
+    background: #6addf1;
     color: #000000;
 }
 .div1-creation_hand1_section1
@@ -41,7 +41,7 @@ section
 }
 .div1-creation_hand1_section2
 {
-    background: #0b0d8c;
+    background: #055720;
 }
 .div1-creation_hand1_section3
 {
@@ -54,15 +54,15 @@ p
 .div1-creation_hand1_section3, .div1-creation_hand1_section2, .div1-creation_hand1_section1
 {
     font-size: 1.2em;
-    width: 40%;
-    padding: 1%;
+    width: 80px;
+    padding: 2px;
     margin-left: auto;
     text-align: center;
     border: 1px solid black;
     color: #ffffff;
     position: relative;
-    top: -5px;
-    left: 5px;
+    top: -4px;
+    left: 4px;
 }
 div[class*="div2-creation_hand2_section"]
 {
@@ -73,6 +73,11 @@ div[class*="div2-creation_hand2_section"]
 
 @media(min-width: 768px) and (max-width: 991px)
 {
+    .div-creation_container
+    {
+        width: 100%;
+        position: absolute;
+    }
     .section-creat_container1, .section-creat_container2
     {
         width: 50%;
@@ -87,33 +92,9 @@ div[class*="div2-creation_hand2_section"]
     }
     .div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
     {
-        border: 2px solid black;
         padding: 3px;
-        height: 200px;
+        height: 250px;
         color: #ffffff;
-    }
-    .p-creat_container_para1
-    {
-        text-align: center;
-    }
-    .div1-creation_hand1_section1
-    {
-        background: #ef3475;
-    }
-    .div1-creation_hand1_section2 {
-
-        background: #0d964a;
-    }
-    .div1-creation_hand1_section3
-    {
-        background: #050f50;
-    }
-    .div1-creation_hand1_section3, .div1-creation_hand1_section2, .div1-creation_hand1_section1
-    {
-        padding: 1%;
-        position: relative;
-        top: -5px;
-        left: 5px;
     }
 }
 
@@ -127,18 +108,7 @@ div[class*="div2-creation_hand2_section"]
     .div-creation_container
     {
         width: 100%;
-        height: 250px;
         position: absolute;
-    }
-    .p-creat_container_para1
-    {
-        text-align: center;
-    }
-    .div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
-    {
-        border: 1px solid black;
-        position: relative;
-        padding: 3px;
     }
     .div1-creation_hand1_section1
     {
@@ -152,10 +122,6 @@ div[class*="div2-creation_hand2_section"]
     {
         background: #050f50;
     }
-    p
-    {
-        margin:0;
-    }
     .div1-creation_hand1_section3, .div1-creation_hand1_section2, .div1-creation_hand1_section1
     {
         width: 40%;
@@ -163,12 +129,9 @@ div[class*="div2-creation_hand2_section"]
         margin-left: auto;
         text-align: center;
         position: relative;
-        top: -5px;
-        left: 5px;
     }
     div[class*="div2-creation_hand2_section"]
     {
-        position: relative;
         padding: 5px;
         margin-top: 20px;
     }
