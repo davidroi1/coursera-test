@@ -31,9 +31,9 @@ section
 .div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
 {
     border: 1px solid black;
-    padding: 5px;
+    padding: 3px;
     background: #0b8db4;
-    color: #ffffff;
+    color: #000000;
 }
 .div1-creation_hand1_section1
 {
@@ -59,6 +59,7 @@ p
     margin-left: auto;
     text-align: center;
     border: 1px solid black;
+    color: #ffffff;
     position: relative;
     top: -5px;
     left: 5px;
@@ -87,9 +88,8 @@ div[class*="div2-creation_hand2_section"]
     .div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
     {
         border: 2px solid black;
-        padding: 5px;
+        padding: 3px;
         height: 200px;
-        background: #0b8db4;
         color: #ffffff;
     }
     .p-creat_container_para1
@@ -102,7 +102,7 @@ div[class*="div2-creation_hand2_section"]
     }
     .div1-creation_hand1_section2 {
 
-        background: #0b0d8c;
+        background: #0d964a;
     }
     .div1-creation_hand1_section3
     {
@@ -136,11 +136,9 @@ div[class*="div2-creation_hand2_section"]
     }
     .div1-creation_hand_section1, .div2-creation_hand_section2, .div3-creation_hand_section3
     {
-        border: 2px solid black;
+        border: 1px solid black;
         position: relative;
-        padding: 5px;
-        background: #0b8db4;
-        color: #ffffff;
+        padding: 3px;
     }
     .div1-creation_hand1_section1
     {
